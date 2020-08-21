@@ -45,7 +45,7 @@ rm -R directory - //Recursively delete all files inside directory
 
 ### List Files (-1 Listing vertically -l File Information h - Human readable file sizes)
 ```
-ls -1lh
+ls -1lhas
 ```
 
 ### Disk uage -s summarize -h human readable -c calculate total
