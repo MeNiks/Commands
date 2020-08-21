@@ -40,3 +40,9 @@ ls -1lh - // -1 Listing vertically -l File Information h - Human readable file s
 rm file.zip - //Delete zip file
 rm -R directory - //Recursively delete all files inside directory
 ```
+
+### Export Path
+```
+export PATH=$PATH:/home/abc/soft/temp/jdk1.7.0_80/bin
+export JAVA_HOME=/home/abc/soft/temp/jdk1.7.0_80
+```
