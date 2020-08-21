@@ -43,12 +43,13 @@ rm file.zip - //Delete zip file
 rm -R directory - //Recursively delete all files inside directory
 ```
 
-### List Files
+### List Files (-1 Listing vertically -l File Information h - Human readable file sizes)
 ```
-ls -1lh - // -1 Listing vertically -l File Information h - Human readable file sizes
+ls -1lh
 ```
-```
+
 ### Disk uage -s summarize -h human readable -c calculate total
+```
 du -shc *
 ```
 
