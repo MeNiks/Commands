@@ -8,15 +8,11 @@ zip -r folder.zip folder
 ### Unzip
 ```
 unzip -d folder_unzip folder.zip
-
 -d - Destination folder
-```
-
-### Extract . gz File
-```
-gunzip jdk-7u80-linux-x64.tar.gz
-
-This will remove gz final file will be jdk-7u80-linux-x64.tar
+tar -xvf myfile.tar // To unzip tar
+tar -xzvf myfile.tar.gz // To unzip tar.gz
+tar -xvf myfile.tar -C somedirectory // -c to extract to some directory
+gunzip jdk-7u80-linux-x64.tar.gz // This will remove gz final file will be jdk-7u80-linux-x64.tar
 ```
 
 ### Rename
